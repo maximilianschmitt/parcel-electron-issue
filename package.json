@@ -1,0 +1,23 @@
+{
+	"name": "debug",
+	"version": "1.0.0",
+	"description": "",
+	"private": true,
+	"workspaces": [
+		"client",
+		"electron"
+	],
+	"scripts": {
+		"dev": "node scripts/dev.js"
+	},
+	"devDependencies": {
+		"execa": "5"
+	},
+	"prettier": {
+		"singleQuote": true,
+		"semi": false,
+		"useTabs": true,
+		"tabWidth": 4,
+		"printWidth": 120
+	}
+}

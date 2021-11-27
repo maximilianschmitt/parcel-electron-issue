@@ -1,0 +1,26 @@
+{
+	"name": "debug-electron",
+	"productName": "DebugElectron",
+	"main": "dist/index.js",
+	"version": "1.0.0",
+	"description": "",
+	"private": true,
+	"scripts": {
+		"ts:build": "tsc",
+		"ts:dev": "tsc-watch --noClear",
+		"electron:dev": "electron ."
+	},
+	"author": "Maximilian Schmitt",
+	"license": "UNLICENSED",
+	"dependencies": {
+		"electron-better-ipc": "^2.0.1"
+	},
+	"devDependencies": {
+		"electron": "16.0.2",
+		"electron-packager": "15.4.0",
+		"electron-reloader": "1.2.1",
+		"electron-winstaller": "5.0.0",
+		"tsc-watch": "^4.5.0",
+		"typescript": "^4.5.2"
+	}
+}
